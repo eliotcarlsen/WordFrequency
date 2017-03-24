@@ -7,10 +7,6 @@
 ## Description
 
 _SPECS:_
-_Program can take two input words from the user and return a 1 if they are the same word even with capitalization of characters._
-_Input: APplE_
-_Input: apple_
-_Output: 1_
 
 _Program can take two inputs words from the user and return a 0 if they don't match._
 _Input: horse_
