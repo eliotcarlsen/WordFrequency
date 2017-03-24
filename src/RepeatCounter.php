@@ -1,7 +1,7 @@
 <?php
-    class Word
+    class RepeatCounter
     {
-        function RepeatCounter($word_input, $sentence_input)
+        function countRepeats($word_input, $sentence_input)
         {
             $result_array = array();
             $lowercase_word_input = strtolower($word_input);
