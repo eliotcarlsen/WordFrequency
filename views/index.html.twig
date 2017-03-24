@@ -9,20 +9,20 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Word Finder</h1>
+        <h1 class="title">Word Finder</h1>
       </div>
     </div>
     <div class="container">
       <form action="/result" method="post">
         <div class="form-group">
-          <label for="wordInput">Enter the word to find!</label>
+          <label for="wordInput">Enter the word or characters to find!</label>
           <input class="form-control" type="wordInput" name="wordInput">
         </div>
         <div class="form-group">
           <label for="sentenceInput">Enter the data to search:</label>
           <textarea class="form-control" type="sentenceInput" name="sentenceInput" rows="5"></textarea>
         </div>
-        <button class="btn btn-info" type="submit" name="button">GO</button>
+        <button class="btn btn-primary" type="submit" name="button">GO</button>
       </form>
     </div>
   </body>
