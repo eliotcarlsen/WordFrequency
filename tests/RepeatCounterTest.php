@@ -73,6 +73,16 @@
 
           $this->assertEquals(4, $result);
       }
+      function test_oneword_onesentence_commas()
+      {
+          $test_Word = new RepeatCounter;
+          $input = "hello";
+          $sentence = "Hello, how are you?";
+
+          $result = $test_Word->countRepeats($input, $sentence);
+
+          $this->assertEquals(1, $result);
+      }
 
     }
 

@@ -12,7 +12,7 @@
 
     $app->post("/result", function() use($app) {
         $word_finder = new RepeatCounter;
-        return $app['twig']->render('result.html.twig', array('result'=>$word_finder->countRepeats($_POST['wordInput'], $_POST['sentenceInput'])));
+        return $app['twig']->render('result.html.twig', array('result'=>$word_finder->countRepeats($_POST['wordInput'], $_POST['sentenceInput']),'word'=>$_POST['wordInput']));
     });
 
     return $app;
