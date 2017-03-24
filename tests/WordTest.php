@@ -7,9 +7,9 @@
         {
             $test_Word = new Word;
             $input = "horse";
-            $input2 = "horse";
+            $sentence = "horse";
 
-            $result = $test_Word->RepeatCounter($input, $input2);
+            $result = $test_Word->RepeatCounter($input, $sentence);
 
             $this->assertEquals(1, $result);
         }
